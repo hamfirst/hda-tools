@@ -10,7 +10,9 @@ device.  The file startvm.sh can be used as an example
 -- Using the verbs
 
 Qemu should produce a file called corbs.txt which contains all the hda processing coefficient writes
-perfomed by the vm.  This file can be run as a shell script.
+perfomed by the vm.  This file can be run as a shell script.  Typically corbs.txt will contain the init
+and cleanup verbs, so it might be necessary to run the script while sound is playing to determine
+exactly where sound starts working.
 
 -- Processing verbs
 
