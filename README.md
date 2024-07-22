@@ -1,5 +1,9 @@
 # hda-tools
 
+This repo contains some tools I used to get audio working with linux for a Samsung Galaxy Book 3 Pro 360
+using the ALC298 chip.  The basic idea is to get windows running in a vm to snoop what data it sends to
+the audio codec so that the same data can be applied when running linux.
+
 -- Getting a VM setup
 
 Used virtual machine manager to set up a new vm with secure boot and TPM enabled.  After getting windows
